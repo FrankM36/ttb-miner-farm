@@ -1,0 +1,25 @@
+{
+  "farm_name": "My Miner Farm",
+  "wallet": "",
+  "pool_api_base": "https://public-pool.io:40557/api/client/",
+  "poll_seconds": 30,
+  "pool_poll_seconds": 90,
+  "miners": [
+    {
+      "id": "miner-01",
+      "name": "Workshop ESP32",
+      "ip": "192.168.1.101",
+      "enabled": true,
+      "expected_khs": 990,
+      "max_hashrate_factor": 3.0
+    },
+    {
+      "id": "miner-02",
+      "name": "Solar Shed",
+      "ip": "192.168.1.102",
+      "enabled": true,
+      "expected_khs": 990,
+      "max_hashrate_factor": 3.0
+    }
+  ]
+}
