@@ -86,3 +86,11 @@ Tests cover outlier rejection, stable miner naming, config backup and atomic wri
 - Verify project attribution and determine the license before public publication.
 - Test actual browsers on desktop and mobile, including invalid admin keys and changes to miner names.
 - Avoid claiming ESP32 firmware changes: this software is a monitor and a monitor-settings editor only.
+
+## Screenshots
+
+### Main Dashboard
+![TtB Miner Farm Dashboard](screenshots/dashboard-main.png)
+
+### Settings
+![TtB Miner Farm Settings](screenshots/dashboard-settings.png)
