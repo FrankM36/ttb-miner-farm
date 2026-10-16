@@ -57,6 +57,12 @@ Then open `http://YOUR_PI_IP:8081` in a browser. Choose **Settings** to enter yo
 
 > **Network safety:** The dashboard serves ordinary HTTP by default and has no viewer login. Keep it on a trusted LAN or private VPN. Do **not** forward its port to the public internet. If entering your admin key remotely, access the Pi through a secure private connection such as Tailscale, or use HTTPS through a properly configured proxy.
 
+### First launch tips
+
+- The example configuration contains placeholder miner addresses. Miners may appear offline until you enter your own addresses in **Settings**.
+- To retrieve your administrator key, open another terminal in the project directory and run `cat admin_key.txt`.
+- Keep the administrator key private. You need it when saving Settings changes, but not when simply viewing the dashboard.
+
 ### Example configuration
 
 `config.example.json` is a template with fictional miner addresses. Your local `farm_config.json` is where settings are stored and is excluded from Git.
